@@ -1,0 +1,5 @@
+{
+  "description": "Packet and GUI tools for container screens: close without packet, desync, packet delay queue, fabricate packets, save/load GUI.",
+  "tags": ["exploit", "utility", "misc"],
+  "supported_versions": ["26.3"]
+}

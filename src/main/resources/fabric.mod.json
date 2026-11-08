@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "uiutils-meteor",
+  "version": "${version}",
+  "name": "UI Utils (Meteor)",
+  "description": "The New and Improved Client-Side Exploit Hunting Mod!",
+  "authors": [
+    "Mr_Nomos"
+  ],
+  "contact": {
+    "sources": "https://github.com/MrNomos/Uiutils-Meteor-Addon"
+  },
+  "license": "GPL-3.0-or-later",
+  "icon": "assets/uiutils-meteor/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "meteor": [
+      "uiutils.meteor.UiUtilsAddon"
+    ]
+  },
+  "mixins": [
+    "uiutils-meteor.mixins.json"
+  ],
+  "custom": {
+    "meteor-client:color": "145,61,226",
+    "modmenu": {
+      "parent": {
+        "id": "meteor-client"
+      }
+    }
+  },
+  "depends": {
+    "java": ">=${jdk_version}",
+    "minecraft": "${minecraft_version}",
+    "meteor-client": "*"
+  }
+}
